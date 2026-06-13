@@ -517,6 +517,7 @@ body {
 }
 
 .colorlib-experience,
+.colorlib-CV,
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
@@ -533,6 +534,18 @@ body {
 		padding-top: 5em;
 		padding-bottom: 8em;
 	}
+}
+
+.colorlib-about {
+	padding-bottom: 0;
+}
+
+.colorlib-CV {
+	padding-bottom: 0;
+}
+
+.colorlib-about .services {
+	margin-bottom: 0;
 }
 
 

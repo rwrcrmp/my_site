@@ -373,6 +373,7 @@ body.offcanvas {
   padding: 0; }
 
 .colorlib-experience,
+.colorlib-CV,
 .colorlib-skills,
 .colorlib-education,
 .colorlib-blog,
@@ -387,6 +388,7 @@ body.offcanvas {
   display: block; }
   @media screen and (max-width: 768px) {
     .colorlib-experience,
+    .colorlib-CV,
     .colorlib-skills,
     .colorlib-education,
     .colorlib-blog,
@@ -396,6 +398,12 @@ body.offcanvas {
     .colorlib-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
+
+.colorlib-about {
+  padding-bottom: 0; }
+
+.colorlib-CV {
+  padding-bottom: 0; }
 
 .author-img {
   background-size: cover;
@@ -656,6 +664,9 @@ body.offcanvas {
   @media screen and (max-width: 768px) {
     .services {
       margin-bottom: 4em; } }
+
+.colorlib-about .services {
+  margin-bottom: 0; }
   .services .icon {
     position: absolute;
     top: -20px;
